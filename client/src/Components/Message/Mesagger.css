@@ -1,0 +1,54 @@
+.container-mess{
+    display: block;
+    background-color: rgb(202, 202, 202);
+    min-height: 100vh;
+    min-width: 10vh;
+}
+
+
+
+.message{
+display: flex;
+align-items: center;
+margin: 0px 20px 0px 250px;
+}
+
+.message h1{
+    color:rgb(110, 110, 110);
+    font-size: 500px;
+}
+
+.message img{
+    height: 400px;
+}
+
+
+.infor{
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.infor button{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 700;
+    border-style:outset;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    background-color: brown;
+}
+
+.infor button:hover{
+    color:black;
+    background-color: rgb(255, 255, 1);
+}
+.infor button:active{
+    color:rgb(255, 255, 255);
+    background-color:green ;
+}

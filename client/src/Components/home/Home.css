@@ -1,0 +1,15 @@
+.card-list-pokemon {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+.container {
+	max-width: 1100px;
+	margin: 30px auto;
+
+}
+* {
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+} 

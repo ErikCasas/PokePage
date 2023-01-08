@@ -1,0 +1,91 @@
+/* puede que no haga nada */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-search{
+    border-radius: 0px 0px 400px 400px / 0px 0px 150px 150px;
+    border: solid rgb(64, 151, 122);
+    background-color: aquamarine;
+    max-width: 12000px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+.logo img{
+    width: 200px;
+}
+
+
+
+.form-group{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 6px 10px;
+    border-radius: 25px;
+}
+.form-group input{
+    background-color: aquamarine;
+    font-family: inherit;
+    width: 350px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+
+.icon-search{
+    width: 30px;
+    height: 30px;
+    stroke: rgb(0, 0, 0);
+}
+
+.btn-search{
+    background-color: dodgerblue;
+    display: flex;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-family:monospace;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    align-items: center;
+}
+
+.btn-search:hover{
+    background-color:blue;
+    color: #000;
+}
+
+.btn-create{
+    background-color: brown;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 700;
+    box-shadow:  7px 7px 5px black;
+    border-style:outset;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-create:active{
+    box-shadow:  1px 1px 1px black;
+    background-color: rgb(55, 255, 0);
+
+}
+
+

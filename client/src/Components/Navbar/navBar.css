@@ -1,0 +1,102 @@
+
+
+
+/* Btn Filter */
+.container-filter {
+	margin: 0px auto;
+	display: flex;
+}
+.containerNav{
+	border:solid rgb(185, 185, 185);
+	border-radius: 0px 0px 100px 100px;
+	max-width: 1100px;
+	margin: 0px auto;
+	padding: 10px;
+	background-color: brown;
+}
+.icon-filter {
+	border-radius: 10px;
+	border:solid rgb(185, 185, 185);
+	background-color: darkgray;	
+	margin-left: 40px;
+	display: flex;
+	align-items: center;
+	gap: 9px;
+	cursor: pointer;
+}
+
+.icon-filter .icon {
+	width: 30px;
+	height: 30px;
+	stroke: rgb(0, 0, 0);
+}
+.icon-filter:active{
+	background-color: rgb(255, 0, 0);	
+}
+
+.container-filter button{
+	border: none;
+	border-radius: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-left: 10px;
+	background-color: darkgray;	
+	margin-right: 10px;
+	background-color: #dedddd;
+	cursor: pointer;
+
+}
+.container-filter button:active{
+	background-color: rgb(255, 0, 0);	
+}
+
+
+
+
+/* Container Filters */
+.container-filters {
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: -300px;
+	width: 250px;
+	color: #555;
+	background-color: #dedddd;
+	height: 100%;
+	padding-top: 48px;
+	transition: all 0.3s linear;
+}
+
+.container-filters.active {
+	left: 0;
+}
+
+.filter-by-type {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.filter-by-type span {
+	font-weight: 700;
+	font-size: 22px;
+}
+
+.filter-by-type select{
+	border-radius: 10px;
+	border-style: double;
+	padding: 10px;
+	display: inline;
+	margin: 0%;
+	background-color: rgb(189, 193, 193);
+	cursor: pointer;
+}
+
+.filter-by-type option{
+	font-style: oblique;
+	font-family:fantasy;
+	font-size: 15px;
+
+
+}

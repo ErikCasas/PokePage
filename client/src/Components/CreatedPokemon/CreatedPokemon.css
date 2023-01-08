@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.all{
+
+
+    background-color:whitesmoke;
+
+}
+
+.titulo{
+	border:solid 3px rgb(0, 127, 127);
+    align-items: center;
+    display: flex;
+    position: relative;
+    background-color: aquamarine;
+    justify-content: space-between;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+.titulo h1{
+
+    
+    margin-left: 10px;
+    border: 3px solid #ffffff;
+    box-shadow: 5px 4px 2px black;
+
+}
+.titulo img{
+    height: 50px;
+    margin: 0%;
+}
+
+.titulo button{
+    text-decoration: none;
+    display: flex;
+    background-color: rgb(70, 193, 234);
+    margin-right: 30px;
+    padding: 10px 25px 10px 25px;
+    font-family: 'Press Start 2P', cursive;
+    border-style:dashed ;
+}
+
+.car-example{
+    position: relative;
+    display: block;
+    background-color: brown;
+    left: 350px;
+    bottom: 550px;
+
+}
+
+.input-name{
+	font-family:fantasy;
+    font-weight: 700;
+    padding: 10px 205px 10px 10px;
+    display: inline;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(216, 216, 216);
+    border-color: rgb(189, 189, 189);
+    border-width: 3px;
+    border-style: double;
+    position: relative;
+
+}
+.input-name input{
+    margin-top: 10px;
+    margin-left: 7px;
+    border-radius: 25px;
+    padding: 4px;
+    padding-left: 50px;
+    border: 0;
+}
+.input-name span{
+    position:absolute;
+    margin: 0px;
+    top: 8px;
+}
+
+
+.data_1{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+    background-color: rgb(216, 216, 216);
+    border-color: rgb(189, 189, 189);
+    border-width: 3px;
+    border-style: double;
+    border-radius: 0px 20px 20px 0px;
+    position: relative;
+    width: 500px;
+    height: 300px;
+
+}
+
+.data_1 div{
+    padding: 5px 00px 5px 0px;
+	font-family:fantasy;
+
+    font-weight: 700;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left:  10px;
+}
+
+.data_2{
+    background-color: rgb(216, 216, 216);
+    border-color: rgb(189, 189, 189);
+    border-width: 3px;
+    border-style: double;
+    position: relative;
+    border-radius: 0px 20px 20px 0px;
+    top:20px;  
+    width: 600px;
+    height: 28  0px;
+	gap: 20px;
+}
+
+.data_2 span{
+    font-family:fantasy;
+    font-weight: 700;
+    position: relative;
+    background-color: slategray;
+    border-radius: 4px;
+    gap: 5px;
+    padding: 10px;
+    
+}
+.types{
+    font-family:fantasy;
+    font-weight: 700;
+    display: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: grid;
+	grid-template-columns: repeat(8, 4fr);
+    gap: 10px;
+
+}
+.types input{
+    border: 0;
+    height: 50px;
+    width: 50px;
+ 
+}
+
+.all h3{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding: 10px;
+    position:absolute;
+    bottom: 4px;
+    left: 310px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+
+
+
+.btn-crt{
+    position: relative;
+    left: 1000px;
+}
+
+.input-img{
+    font-family:fantasy;
+    font-weight: 700;
+    padding: 10px 205px 10px 10px;
+    position: relative;
+    top:10px;   
+    display: inline;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(216, 216, 216);
+    border-color: rgb(189, 189, 189);
+    border-width: 3px;
+    border-style: double;
+
+}
+
+.input-img input{
+    border-radius: 25px;
+    padding: 4px;
+    padding-left: 50px;
+    border: 0;
+}
+
+.btn-crt button{
+    border-color: cadetblue;
+    color: #ffffff;
+    background-color: rgb(1, 144, 163);
+    border-radius: 20px;
+    position: absolute;
+    left: -200px;
+    bottom: 0px;
+    display: inline;
+    padding: 8px;
+    font-size: xx-large;
+}
+.btn-crt button[disabled=true], button:disabled{
+    border-color: rgb(24, 51, 52);
+    color: #ffffff;
+    background-color: rgb(6, 69, 77);
+    border-radius: 20px;
+    position: absolute;
+    left: -200px;
+    bottom: 0px;
+    display: inline;
+    padding: 8px;
+    font-size: xx-large;
+    opacity:40%;
+}
+
+
+
+/*  */

@@ -1,0 +1,212 @@
+.poke-card {
+    display: block;
+    position: relative;
+    left: 400px;
+    bottom: 600px;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 300px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid black;
+    background-size: 3px 3px;
+    border-radius: 6px;
+    box-shadow: 20px 15px 10px black;
+
+}
+
+
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.poke-stats{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.poke-img {
+    width: 180px;
+    border-radius: 50%;
+}
+
+
+
+
+
+.poke-typesunknown{
+    background-color: var(--color-unknow);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typeswater {
+	background-color: var(--color-water);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typesgrass {
+	background-color: var(--color-grass);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typespoison {
+	background-color: var(--color-poison);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typesfire {
+	background-color: var(--color-fire);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typesbug {
+	background-color: var(--color-bug);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typesdragon {
+	background: var(--color-dragon);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typesflying {
+	background-color: var(--color-flying);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typesground {
+	background-color: var(--color-ground);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typessteel {
+	background-color: var(--color-steel);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typespsychic {
+	background-color: var(--color-psychic);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typesice {
+	background-color: var(--color-ice);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typesghost {
+	background-color: var(--color-ghost);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typesnormal {
+	background-color: var(--color-normal);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typesrock {
+	background-color: var(--color-rock);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typeselectric {
+	background-color: var(--color-electric);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typesfighting {
+	background-color: var(--color-fighting);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typesfairy {
+	background-color: var(--color-fairy);
+        padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+.poke-typesdark {
+	background-color: var(--color-dark);
+    color: #FFF;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}
+
+
+
+.poke-typesshadow{
+    background-color: var(--color-shadow);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+}

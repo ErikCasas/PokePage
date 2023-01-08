@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+.Fond{
+    display: flex;
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    background-image: url(../../image/PokePage.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 10px 5px 1px rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(48, 58, 235);
+    position:relative;
+    margin-top: -20%;
+    left: 10%;
+    font-size: larger;
+}
+
+
+
+.button{
+    position:relative;
+    margin-top: 0%;
+    left: -7%;
+}
+
+.Fond button{
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 10px 5px 5px black;
+	cursor: pointer;
+    font-size: x-large;
+    border-radius: 10px;
+    position:relative;
+    margin-top: 0%;
+    left: -1%;
+    border: 3px solid #ffffff;
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(8, 0, 255);
+}
+
+.button :hover{
+    color:#ffffff;
+    border: solid #000000;
+
+
+
+}
