@@ -2,7 +2,7 @@
 //------------------------------------------------------------------------------------------------------------ --------------------------
 export const getAllPokemons = () =>{
     return async function(dispatch){
-        await fetch("http://localhost:3003/pokemons/")
+        await fetch("https://pokepage-production-def0.up.railway.app/pokemons/")
         .then((response)=>response.json())        
         .then((data)=>dispatch({
             type: 'GET_ALL_POKEMONS',
@@ -15,7 +15,7 @@ export const getAllPokemons = () =>{
 
 export const getAllTypes = () =>{
     return async function(dispatch){
-        await fetch("http://localhost:3003/pokemons/types")
+        await fetch("https://pokepage-production-def0.up.railway.app/pokemons/types")
         .then((response)=>response.json())
         .then((data)=>dispatch({
             type: 'GET_ALL_TYPES',
@@ -30,7 +30,7 @@ export const getAllTypes = () =>{
 export const getPokemonByName = (name)=>{
     return async function(dispatch){
         try {
-            await fetch(`http://localhost:3003/pokemons/?name=${name}`)
+            await fetch(`https://pokepage-production-def0.up.railway.app/?name=${name}`)
             .then((response)=>response.json())
             .then((data)=>dispatch({
                 type:'GET_POKEMON_BY_NAME',
@@ -47,7 +47,7 @@ export const getPokemonByName = (name)=>{
 
 export const getPokemonDetail = (id) =>{
     return async function(dispatch){
-        await fetch(`http://localhost:3003/pokemons/${id}`)
+        await fetch(`https://pokepage-production-def0.up.railway.app/${id}`)
         .then((response)=>response.json())
         .then((data)=>dispatch({
             type:'GET_POKEMON_DETAIL',
@@ -59,7 +59,7 @@ export const getPokemonDetail = (id) =>{
 
 export const postPokemon = (payload) =>{
             return async function(dispatch){
-        await fetch("http://localhost:3003/pokemons/",payload);
+        await fetch("https://pokepage-production-def0.up.railway.app/",payload);
         return dispatch({
             type:'CREATE_POKEMON'
         });
@@ -70,7 +70,7 @@ export const postPokemon = (payload) =>{
 
 export const deletePokemon = (id) =>{
     return async function (dispatch){
-        await fetch(`http://localhost:3003/pokemons/${id}`, {method: 'DELETE'})
+        await fetch(`https://pokepage-production-def0.up.railway.app/${id}`, {method: 'DELETE'})
         return dispatch({
             type: 'DELETE_POKEMON'
         })
