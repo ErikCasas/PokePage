@@ -59,7 +59,7 @@ export const getPokemonDetail = (id) =>{
 
 export const postPokemon = (payload) =>{
             return async function(dispatch){
-        await fetch("https://pokepage-production-def0.up.railway.app/",payload);
+        await fetch("https://pokepage-production-def0.up.railway.app/pokemons",payload);
         return dispatch({
             type:'CREATE_POKEMON'
         });
