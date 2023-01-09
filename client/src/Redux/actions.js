@@ -47,7 +47,7 @@ export const getPokemonByName = (name)=>{
 
 export const getPokemonDetail = (id) =>{
     return async function(dispatch){
-        await fetch(`https://pokepage-production-def0.up.railway.app/${id}`)
+        await fetch(`https://pokepage-production-def0.up.railway.app/pokemons/${id}`)
         .then((response)=>response.json())
         .then((data)=>dispatch({
             type:'GET_POKEMON_DETAIL',
