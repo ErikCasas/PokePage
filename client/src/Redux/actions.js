@@ -30,7 +30,7 @@ export const getAllTypes = () =>{
 export const getPokemonByName = (name)=>{
     return async function(dispatch){
         try {
-            await fetch(`https://pokepage-production-def0.up.railway.app/?name=${name}`)
+            await fetch(`https://pokepage-production-def0.up.railway.app/pokemons/?name=${name}`)
             .then((response)=>response.json())
             .then((data)=>dispatch({
                 type:'GET_POKEMON_BY_NAME',
