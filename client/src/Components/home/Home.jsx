@@ -77,12 +77,18 @@ export default function Home (){
         setOrder(e.target.value);
         setCurrentPage(1)
     } 
+
+    function setPage(){
+        setCurrentPage(1)
+    }
     // {error&&<Message/>}
     return(
         <>
             {loading?(<Loader/>):
             <div>
-                <SearchBar/>
+                <SearchBar
+                setPage={setPage} 
+                />
 
                 <NavBar
                 prevent={prevent}

@@ -5,7 +5,7 @@ import { getPokemonByName } from "../../Redux/actions";
 import { Link } from "react-router-dom";
 import './searchBar.css'
 
-export default function SearchBar(){
+export default function SearchBar({setPage}){
 
 
     const Dispatch = useDispatch();
@@ -20,8 +20,9 @@ export default function SearchBar(){
     function handlerButton(e){
         if(Name===''){alert('nothing to look for')}
         else{e.preventDefault()
-        Dispatch(getPokemonByName(Name))
-        SetName('')}
+            Dispatch(getPokemonByName(Name))
+            SetName('')}
+            setPage()
     }
 
     return(
