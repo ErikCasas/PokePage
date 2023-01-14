@@ -21,8 +21,9 @@ export default function SearchBar({setPage}){
         if(Name===''){alert('nothing to look for')}
         else{e.preventDefault()
             Dispatch(getPokemonByName(Name))
-            SetName('')}
+            SetName('')
             setPage()
+        }
     }
 
     return(
