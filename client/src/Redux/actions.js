@@ -70,7 +70,7 @@ export const postPokemon = (payload) =>{
 
 export const deletePokemon = (id) =>{
     return async function (dispatch){
-        await fetch(`https://pokepage-production-def0.up.railway.app/${id}`, {method: 'DELETE'})
+        await fetch(`https://pokepage-production-def0.up.railway.app/pokemons/${id}`, {method: 'DELETE'})
         return dispatch({
             type: 'DELETE_POKEMON'
         })
