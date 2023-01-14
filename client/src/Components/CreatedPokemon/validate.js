@@ -1,5 +1,5 @@
 const urlPatternValidation = (URL) => {
-    const regex = new RegExp(/(https?:\/\/.*\.(?:png|jpg))/);
+    const regex = new RegExp(/(https?:\/\/.*\.(?:png|jpg|svg))/);
     return regex.test(URL);
   };
 
